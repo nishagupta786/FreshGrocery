@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Fresh Grocery</title>
+
+<!----stylesheetlink-->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Bootstrap 5 CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/all.min.css">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="css/bootstrap-icons.css">
+</head>
+
+
+<body>
+
+
+
+
+
+
+
+    <!-- ========================= -->
+    <!-- Navbar Start -->
+    <!-- ========================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success py-3 sticky-top">
+
+        <div class="container">
+
+
+
+
+            <!-- Logo -->
+
+            <a class="navbar-brand"
+                href="#">
+
+                <img src="images/logo.png"
+                    alt="Logo"
+                    width="220px">
+
+            </a>
+
+
+
+
+
+
+            <!-- Mobile Button -->
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+
+
+
+
+
+
+            <!-- Menu -->
+
+            <div class="collapse navbar-collapse"
+                id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+
+
+
+
+                    <!-- Home -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active text-white fw-bold fs-5 px-3"
+                            href="index.html">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- Categories -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-white fw-bold fs-5 px-3"
+                            href="categories.html">
+
+                            Categories
+
+                        </a>
+
+                    </li>
+
+
+
+                    
+                    <!-- Shop -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-white fw-bold fs-5 px-3"
+                            href="shop.html">
+
+                            Shop
+
+                        </a>
+
+                    </li>
+
+
+
+
+
+                    <!-- Offers -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-white fw-bold fs-5 px-3"
+                            href="contact.html">
+
+                                 Contact
+                        </a>
+
+                    </li>
+
+
+
+
+
+
+
+
+                    <!-- Contact -->
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-white fw-bold fs-5 px-3"
+                            href="login.html">
+
+                        Login
+
+                        </a>
+
+                    </li>
+
+                       <li class="nav-item">
+
+                        <a class="nav-link text-white fw-bold fs-5 px-3"
+                            href="register.html">
+
+                        Register
+
+                        </a>
+
+                    </li>
+
+
+
+
+
+
+
+                    <!-- Cart -->
+
+                    <li class="nav-item ms-lg-4">
+    <a href="#" class="text-white position-relative">
+
+        <i class="bi bi-cart3 fs-2"></i>
+
+        <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            0
+        </span>
+
+    </a>
+</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ========================= -->
+    <!-- Navbar End -->
+    <!-- ========================= -->
+
+
+
+<!-- Search & Filter -->
+<section class="container py-4">
+
+    <div class="row g-3">
+
+        <div class="col-md-8">
+          <input type="text" id="searchBox" class="form-control" placeholder="Search Product">
+        </div>
+
+        <div class="col-md-4">
+        <select id="category" class="form-select">
+            <option value="all">All Categories</option>
+            <option value="Fruits">Fruits</option>
+            <option value="Vegetables">Vegetables</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Bakery">Bakery</option>
+        </select>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Products -->
+<section class="container pb-5">
+
+    <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-6 col-md-4 col-lg-3  product-item" data-category="Fruits">
+            <div class="card product">
+                <img src="images/apple.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                    <h5>Apple</h5>
+                    <p class="price">₹120/kg</p>
+                    <button class="btn btn-success w-100 addCart">
+                        Add To Cart
+                    </button>
+                     <button class="btn btn-success w-100  removeCart">
+                        Remove To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-6 col-md-4 col-lg-3 product-item"  data-category="Vegetables">
+            <div class="card product">
+                <img src="images/Tomato.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                    <h5>Tomato</h5>
+                    <p class="price">₹40/kg</p>
+                    <button class="btn btn-success w-100 addCart">
+                        Add To Cart
+                    </button>
+                       <button class="btn btn-success w-100 removeCart">
+                        Remove To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-6 col-md-4 col-lg-3 product-item" data-category="Dairy">
+            <div class="card product">
+                <img src="images/Cowmilk.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                    <h5>Milk</h5>
+                    <p class="price">₹60/Litre</p>
+                    <button class="btn btn-success w-100 addCart">
+                        Add To Cart
+                    </button>
+                       <button class="btn btn-success w-100 removeCart">
+                        Remove To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-6 col-md-4 col-lg-3 product-item" data-category="Vegetables">
+            <div class="card product">
+                <img src="images/potato.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                    <h5>Potato</h5>
+                    <p class="price">₹25/kg</p>
+                    <button class="btn btn-success w-100 addCart">
+                        Add To Cart
+                    </button>
+                       <button class="btn btn-success w-100 removeCart">
+                        Remove To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="pt-5 pb-3">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <h4>Fresh Grocery</h4>
+                <p>Your one-stop shop for fresh and organic products.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p><i class="bi bi-telephone"></i> +91 9876543210</p>
+                <p><i class="bi bi-envelope"></i> info@freshgrocery.com</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            © 2026 Fresh Grocery. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/script.js"> </script>
+
+
+</body>
+
+</html>

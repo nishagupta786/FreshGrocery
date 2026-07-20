@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Fresh Grocery</title>
+
+    <!----stylesheetlink-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+</head>
+
+
+
+<body class="m-0 p-0">
+
+
+
+
+<!-- ========================= -->
+<!-- Navbar Start -->
+<!-- ========================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success py-3 sticky-top">
+
+    <div class="container">
+
+        <!-- Logo -->
+
+        <a class="navbar-brand"
+            href="#">
+
+            <img src="images/logo.png"
+                alt="Logo"
+                width="220px">
+
+        </a>
+
+
+
+
+
+        <!-- Mobile Button -->
+
+        <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+
+
+
+
+
+        <!-- Menu -->
+
+        <div class="collapse navbar-collapse"
+            id="menu">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link active text-white fw-bold fs-5 px-3"
+                        href="index.html">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-white fw-bold fs-5 px-3"
+                        href="categories.html">
+
+                        Categories
+
+                    </a>
+
+                </li>
+
+
+
+                
+                <li class="nav-item">
+
+                    <a class="nav-link text-white fw-bold fs-5 px-3"
+                        href="shop.html">
+
+                        Shop
+
+                    </a>
+
+                </li>
+
+
+
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-white fw-bold fs-5 px-3"
+                        href="contact.html">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+
+                
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-white fw-bold fs-5 px-3"
+                        href="register.html">
+
+                        Register
+
+                    </a>
+
+                </li>
+
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link text-white fw-bold fs-5 px-3"
+                        href="login.html">
+
+                        Login
+
+                    </a>
+
+                </li>
+
+
+
+
+
+                <!-- Cart -->
+
+                <li class="nav-item ms-lg-4">
+
+                    <a href="#"
+                        class="text-white position-relative">
+
+                        <i class="bi bi-cart3 fs-2"></i>
+
+                        <span id="cartCount" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+
+                            0
+
+                        </span>
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- ========================= -->
+<!-- Navbar End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- Offer Banner Start -->
+<!-- ========================= -->
+
+<section class="offer1 text-white text-center">
+
+    <div class="container">
+
+        <h1 class="fw-bold display-3 mb-4">
+
+            50% OFF On Fresh Fruits
+
+        </h1>
+
+        <p class="fs-3 mb-4">
+
+            Get healthy and fresh grocery products
+            at the best prices.
+
+        </p>
+
+        <a href="#"
+            class="btn btn-warning btn-lg px-5 py-3 fw-bold rounded-pill">
+
+            Shop Now
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Offer Banner End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- Categories Start -->
+<!-- ========================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <h1 class="text-center fw-bold text-success display-5 mb-5">
+
+            Shop By Categories
+
+        </h1>
+
+
+
+
+
+
+        <div class="row g-4">
+
+
+
+
+
+            <!-- Fruits -->
+
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm text-center p-3 h-100 rounded-4">
+
+                    <img src="images/1f.jpg"
+                        class="img-fluid mb-3"
+                        style="height:120px; object-fit:contain;"
+                        alt="Fruits">
+
+                    <h5 class="fw-bold">
+
+                        Fruits
+
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Vegetables -->
+
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm text-center p-3 h-100 rounded-4">
+
+                    <img src="images/2veg.jpg"
+                        class="img-fluid mb-3"
+                        style="height:120px; object-fit:contain;"
+                        alt="Vegetables">
+
+                    <h5 class="fw-bold">
+
+                        Vegetables
+
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Dairy -->
+
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm text-center p-3 h-100 rounded-4">
+
+                    <img src="images/4.jpg"
+                        class="img-fluid mb-3"
+                        style="height:120px; object-fit:contain;"
+                        alt="Dairy">
+
+                    <h5 class="fw-bold">
+
+                        Dairy
+
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Bakery -->
+
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm text-center p-3 h-100 rounded-4">
+
+                    <img src="images/2bread.jpg"
+                        class="img-fluid mb-3"
+                        style="height:120px; object-fit:contain;"
+                        alt="Bakery">
+
+                    <h5 class="fw-bold">
+
+                        Bakery
+
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Juice -->
+
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm text-center p-3 h-100 rounded-4">
+
+                    <img src="images/juice.jpg"
+                        class="img-fluid mb-3"
+                        style="height:120px; object-fit:contain;"
+                        alt="Juice">
+
+                    <h5 class="fw-bold">
+
+                        Juice
+
+                    </h5>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Snacks -->
+
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm text-center p-3 h-100 rounded-4">
+
+                    <img src="images/5s.jpg"
+                        class="img-fluid mb-3"
+                        style="height:120px; object-fit:contain;"
+                        alt="Snacks">
+
+                    <h5 class="fw-bold">
+
+                        Snacks
+
+                    </h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Categories End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- Featured Products Start -->
+<!-- ========================= -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <h1 class="text-center fw-bold text-success display-5 mb-5">
+
+            Featured Products
+
+        </h1>
+
+
+
+
+
+
+        <div class="row g-4">
+
+
+
+
+
+            <!-- Product 1 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card border-0 shadow rounded-4 h-100">
+
+                    <img src="images/apple.jpg"
+                        class="card-img-top"
+                        style="height:250px;"
+                        alt="Apple">
+
+                    <div class="card-body text-center">
+
+                        <h4 class="fw-bold">
+
+                            Fresh Apple
+
+                        </h4>
+                        
+                        <h5 class="text-success fw-bold ">
+
+                            ₹120 Kg
+
+                        </h5>
+                       
+
+                        <a href="#"
+                            class="btn btn-success mt-3 px-4 addCart">
+
+                            Add To Cart
+
+                        </a>
+
+                         <a href="#"
+                            class="btn btn-success mt-3 px-4 removeCart">
+
+                            Remove To Cart
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Product 2 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card border-0 shadow rounded-4 h-100">
+
+                    <img src="images/orange.jpg"
+                        class="card-img-top "
+                        style="height:250px;"
+                        alt="Orange">
+
+                    <div class="card-body text-center">
+
+                        <h4 class="fw-bold">
+
+                            Fresh Orange
+
+                        </h4>
+
+                        <h5 class="text-success fw-bold ">
+
+                            ₹90 Kg
+
+                        </h5>
+
+                        <a href="#"
+                            class="btn btn-success mt-3 px-4 addCart">
+
+                            Add To Cart
+
+                        </a>
+
+                        <a href="#"
+                            class="btn btn-success mt-3 px-4 removeCart">
+
+                            Remove To Cart
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Product 3 -->
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card border-0 shadow rounded-4 h-100">
+
+                    <img src="images/Cowmilk.jpg"
+                        class="card-img-top "
+                        style="height:250px;"
+                        alt="Milk">
+
+                    <div class="card-body text-center">
+
+                        <h4 class="fw-bold">
+
+                            Fresh Milk
+
+                        </h4>
+
+                        <h5 class="text-success fw-bold">
+
+                            ₹60 Litre
+
+                        </h5>
+
+                        <a href="#"
+                            class="btn btn-success mt-3 px-4 addCart">
+
+                            Add To Cart
+
+                        </a>
+
+                        <a href="#"
+                            class="btn btn-success mt-3 px-4 removeCart">
+
+                            Remove To Cart
+
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Featured Products End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- Footer Start -->
+<!-- ========================= -->
+
+<footer class="pt-5 pb-3">
+
+    <div class="container">
+
+        <div class="row">
+
+
+
+
+
+            <!-- About -->
+
+            <div class="col-md-4">
+
+                <h4>
+
+                    Fresh Grocery
+
+                </h4>
+
+           
+
+                <p>
+
+                    Your one-stop shop for fresh and organic products.
+
+                </p>
+
+            </div>
+
+
+
+
+
+
+            <!-- Links -->
+
+            <div class="col-md-4">
+
+                <h5>
+
+                    Quick Links
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Shop</a></li>
+
+                    <li><a href="#">Categories</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+
+            <!-- Contact -->
+
+            <div class="col-md-4">
+
+                <h5>
+
+                    Contact
+
+                </h5>
+
+                <p>
+
+                    <i class="bi bi-telephone"></i>
+                    +91 9876543210
+
+                </p>
+
+                <p>
+
+                    <i class="bi bi-envelope"></i>
+                    info@freshgrocery.com
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <hr>
+
+
+
+
+
+        <div class="text-center">
+
+            © 2026 Fresh Grocery. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ========================= -->
+<!-- Footer End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Your JS -->
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

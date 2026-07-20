@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Fresh Grocery</title>
+
+
+    <!----stylesheetlink-->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    
+
+</head>
+
+<style>
+
+
+
+</style>
+
+<body class="m-0 p-0">
+
+
+
+
+<!-- ========================= -->
+<!-- Navbar Start -->
+<!-- ========================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-success py-3 sticky-top">
+
+    <div class="container">
+
+        <!-- Logo -->
+
+    <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Logo" width="220px">
+    </a>
+
+<!-- Mobile Button -->
+
+<button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Menu -->
+
+        <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+         <li class="nav-item">
+            <a class="nav-link active text-white fw-bold fs-5 px-3" href="index.html">Home</a>
+
+         </li>
+
+         <li class="nav-item">
+            <a class="nav-link text-white fw-bold fs-5 px-3" href="categories.html">Categories</a>
+
+        </li>
+
+        <li class="nav-item">
+         <a class="nav-link text-white fw-bold fs-5 px-3" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link text-white fw-bold fs-5 px-3"  href="contact.html">Contact </a>
+        </li>
+
+
+    <li class="nav-item">
+        <a class="nav-link text-white fw-bold fs-5 px-3" href="register.html">
+            Register
+
+        </a>
+
+    </li>
+
+                
+    <li class="nav-item">
+
+        <a class="nav-link text-white fw-bold fs-5 px-3" href="login.html">Login</a>
+
+    </li>
+
+<!-- Cart -->
+
+                
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- ---------------- Navbar End--------- -->
+
+<!------------Contact Banner Start -------->
+
+
+<section class="bg-warning py-5">
+
+    <div class="container text-center text-white">
+
+        <h1 class="display-3 fw-bold">
+
+            Contact Us
+
+        </h1>
+
+        <p class="fs-4">
+
+            We are always ready to help you
+
+        </p>
+
+    </div>
+
+</section>
+
+<!----- Contact Banner End -------->
+
+<!-------- Contact Section Start ----------->
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-5">
+         <!-- Contact Form -->
+
+            <div class="col-lg-7">
+
+                <div class="card border-0 shadow p-4">
+
+                    <h2 class="fw-bold text-success mb-4">Send Message</h2>
+
+<form id="contactForm">
+<!-- Name -->
+<div class="mb-3">
+<label class="form-label fw-bold">Full Name</label>
+<input type="text" id="name" class="form-control form-control-lg" placeholder="Enter your name"> </div>
+<!-- Email -->
+
+<div class="mb-3">
+<label class="form-label fw-bold"> Email Address</label>
+<input type="email" id="email" class="form-control form-control-lg" placeholder="Enter your email"></div>
+<!-- Phone -->
+<div class="mb-3">
+    <label class="form-label fw-bold">Phone Number </label>
+    <input type="text" id="phone" class="form-control form-control-lg" placeholder="Enter phone number">
+</div>
+<!-- Message -->
+<div class="mb-4">
+    <label class="form-label fw-bold">Message</label>
+    <textarea id="message" class="form-control" rows="5" placeholder="Write your message"></textarea>
+</div>
+
+<!-- Button -->
+
+<button class="btn btn-success btn-lg px-5">Send Message</button>
+
+</form>
+ </div>
+</div>
+
+<!-- Contact Info -->
+
+            <div class="col-lg-5">
+
+                <div class="card border-0 shadow p-4 h-100">
+
+                    <h2 class="fw-bold text-success mb-4">
+
+                        Contact Information
+
+                    </h2>
+
+
+
+
+
+
+
+                    <div class="mb-4">
+
+                        <h5 class="fw-bold">
+
+                            <i class="bi bi-geo-alt-fill text-success me-2"></i>
+
+                            Address
+
+                        </h5>
+
+                        <p class="text-muted">
+
+                            Chandigarh, India
+
+                        </p>
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="mb-4">
+
+                        <h5 class="fw-bold">
+
+                           <i class="bi bi-telephone-fill text-success me-2"></i>
+
+                            Phone
+
+                        </h5>
+
+                        <p class="text-muted">
+
+                            +91 9876543210
+
+                        </p>
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <div class="mb-4">
+
+                        <h5 class="fw-bold">
+
+                            <i class="bi bi-envelope-fill text-success me-2"></i>
+
+                            Email
+
+                        </h5>
+
+                        <p class="text-muted">
+
+                            info@freshgrocery.com
+
+                        </p>
+
+                    </div>
+
+
+
+
+
+
+
+
+                    <div>
+
+                        <h5 class="fw-bold mb-3">
+
+                            Follow Us
+
+                        </h5>
+
+                        <a href="#"
+                           class="btn btn-success me-2">
+
+                            <i class="bi bi-facebook"></i>
+
+                        </a>
+
+                        <a href="#"
+                           class="btn btn-danger me-2">
+
+                           <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#"
+                           class="btn btn-primary me-2">
+
+                            <i class="bi bi-twitter-x"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Contact Section End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- Footer Start -->
+<!-- ========================= -->
+
+<footer class="pt-5 pb-3">
+
+    <div class="container">
+
+        <div class="row">
+
+
+
+
+
+            <!-- About -->
+
+            <div class="col-md-4">
+
+                <h4>
+
+                    Fresh Grocery
+
+                </h4>
+
+                <p>
+
+                    Your one-stop shop for fresh and organic products.
+
+                </p>
+
+            </div>
+
+
+
+
+
+
+            <!-- Links -->
+
+            <div class="col-md-4">
+
+                <h5>
+
+                    Quick Links
+
+                </h5>
+
+                <ul class="list-unstyled">
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Shop</a></li>
+
+                    <li><a href="#">Categories</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+
+
+
+
+
+            <!-- Contact -->
+
+            <div class="col-md-4">
+
+                <h5>
+
+                    Contact
+
+                </h5>
+
+                <p>
+
+                    <i class="bi bi-telephone"></i>
+                    +91 9876543210
+
+                </p>
+
+                <p>
+
+                    <i class="bi bi-envelope"></i>
+                    info@freshgrocery.com
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <hr>
+
+
+
+
+
+        <div class="text-center">
+
+            © 2026 Fresh Grocery. All Rights Reserved.
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ========================= -->
+<!-- Footer End -->
+<!-- ========================= -->
+
+
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
